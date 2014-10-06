@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [CreteRound-Italic.ttf.ttx, CreteRound-Regular.ttf.ttx, src/CreteRound-Italic.otf.ttx,
+  src/CreteRound-Regular.otf.ttx, src/CreteRound-Italic-TTF.sfd, src/CreteRound-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
